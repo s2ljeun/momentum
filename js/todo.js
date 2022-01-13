@@ -24,6 +24,7 @@ function paintToDo(newTodo){
   span.innerText = newTodo.text;
   const checkButton = document.createElement("input");
   checkButton.type = "checkbox";
+  checkButton.addEventListener("click", checkToDo);
   const deleteButton = document.createElement("button");
   deleteButton.innerText = "❌";
   deleteButton.addEventListener("click", deleteToDo);
@@ -31,6 +32,11 @@ function paintToDo(newTodo){
   li.appendChild(checkButton);
   li.appendChild(deleteButton);
   toDoList.appendChild(li);
+}
+
+function checkToDo(event){
+  const li = event.target.parentElement;
+  console.log(li);
 }
 
 function handleToDoSubmit(event){

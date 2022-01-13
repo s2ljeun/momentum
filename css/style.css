@@ -1,5 +1,5 @@
-*{
-  font-family: 'Noto Serif KR', serif;
+* {
+  font-family: "Noto Serif KR", serif;
 }
 
 body {
@@ -29,7 +29,7 @@ body {
   margin-top: 10vh;
 }
 
-.footer{
+.footer {
   margin-top: 20vh;
 }
 
@@ -43,7 +43,7 @@ body {
 }
 
 #clock {
-  font-family: 'Noto Sans KR', sans-serif;
+  font-family: "Noto Sans KR", sans-serif;
   color: white;
   font-size: 90px;
 }
@@ -75,14 +75,20 @@ body {
   margin-bottom: 20px;
 }
 
-#todo-list li{
+#todo-list li {
   margin-bottom: 5px;
 }
 
-#todo-list button{
+#todo-list input {
+  margin: 1px 3px 1px 6px;
+}
+
+#todo-list button {
   background: transparent;
   border: none;
   cursor: pointer;
+  padding: 1px 6px 1px 3px;
+  font-size: 13px;
 }
 
 .footer {
