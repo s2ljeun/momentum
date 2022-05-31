@@ -1,7 +1,7 @@
 const images = [
-  "cyberpunk.jpg",
-  "forest.jpg",
-  "houses.jpg",
+    "cyberpunk.jpg",
+    "forest.jpg",
+    "houses.jpg",
 ];
 
 const chosenImage = images[Math.floor(Math.random() * images.length)];

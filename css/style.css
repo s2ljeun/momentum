@@ -1,97 +1,97 @@
 * {
-  font-family: "Noto Serif KR", serif;
+    font-family: "Noto Serif KR", serif;
 }
 
 body {
-  margin: 0;
+    margin: 0;
 }
 
 .hidden {
-  display: none;
+    display: none;
 }
 
 .center {
-  text-align: center;
-  margin: auto;
+    text-align: center;
+    margin: auto;
 }
 
 .wrap {
-  display: flex;
-  flex-direction: column;
-  width: 100vw;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-  background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.4);
 }
 
 .top {
-  margin-top: 10vh;
+    margin-top: 10vh;
 }
 
 .footer {
-  margin-top: 20vh;
+    margin-top: 20vh;
 }
 
 .bgImg {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 #clock {
-  font-family: "Noto Sans KR", sans-serif;
-  color: white;
-  font-size: 90px;
+    font-family: "Noto Sans KR", sans-serif;
+    color: white;
+    font-size: 90px;
 }
 
 #weather {
-  color: white;
-  font-size: 14px;
-  margin-bottom: 30px;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 30px;
 }
 
 #greeting {
-  color: white;
-  font-size: 30px;
-  margin-bottom: 10px;
+    color: white;
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
 #todo-form input {
-  min-width: 190px;
-  width: 13vw;
-  padding: 18px 30px;
-  border: 0px;
-  border-radius: 15px;
-  margin-bottom: 20px;
+    min-width: 190px;
+    width: 13vw;
+    padding: 18px 30px;
+    border: 0px;
+    border-radius: 15px;
+    margin-bottom: 20px;
 }
 
 #todo-list {
-  list-style: none;
-  color: white;
-  margin-bottom: 20px;
+    list-style: none;
+    color: white;
+    margin-bottom: 20px;
 }
 
 #todo-list li {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 #todo-list input {
-  margin: 1px 3px 1px 6px;
+    margin: 1px 3px 1px 6px;
 }
 
 #todo-list button {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 1px 6px 1px 3px;
-  font-size: 13px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 1px 6px 1px 3px;
+    font-size: 13px;
 }
 
 .footer {
-  max-width: 40vw;
-  color: white;
+    max-width: 40vw;
+    color: white;
 }
